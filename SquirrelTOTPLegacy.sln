@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37203.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrel.Autentication.Totp.Aplication", "Squirrel.Autentication.TOTP\Squirrel.Autentication.Totp.Aplication.csproj", "{9A9B96AF-6072-44DC-B56E-8275A562E03E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrel.Autentication.Totp.Domain", "Squirrel.Autentication.TOTP.Domain\Squirrel.Autentication.Totp.Domain.csproj", "{3C16A1AF-FC8B-4C15-A7D3-9D3438A72EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrel.Autentication.Totp.Infrastructure", "Squirrel.Autentication.Totp.Infrastructure\Squirrel.Autentication.Totp.Infrastructure.csproj", "{ACD10FB5-1291-4D60-9B77-7E8D907225AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrel.Autentication.Playground", "Squirrel.Autentication.Playground\Squirrel.Autentication.Playground.csproj", "{8E0EB1BD-6AFC-48F0-8125-108DA619E0C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - TOTP", "02 - TOTP", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Executables", "01 - Executables", "{7BBAD23D-CA59-4615-87B4-1568AE742209}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A9B96AF-6072-44DC-B56E-8275A562E03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9B96AF-6072-44DC-B56E-8275A562E03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9B96AF-6072-44DC-B56E-8275A562E03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9B96AF-6072-44DC-B56E-8275A562E03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C16A1AF-FC8B-4C15-A7D3-9D3438A72EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C16A1AF-FC8B-4C15-A7D3-9D3438A72EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C16A1AF-FC8B-4C15-A7D3-9D3438A72EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C16A1AF-FC8B-4C15-A7D3-9D3438A72EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD10FB5-1291-4D60-9B77-7E8D907225AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD10FB5-1291-4D60-9B77-7E8D907225AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD10FB5-1291-4D60-9B77-7E8D907225AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD10FB5-1291-4D60-9B77-7E8D907225AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0EB1BD-6AFC-48F0-8125-108DA619E0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0EB1BD-6AFC-48F0-8125-108DA619E0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0EB1BD-6AFC-48F0-8125-108DA619E0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0EB1BD-6AFC-48F0-8125-108DA619E0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A9B96AF-6072-44DC-B56E-8275A562E03E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3C16A1AF-FC8B-4C15-A7D3-9D3438A72EE9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{ACD10FB5-1291-4D60-9B77-7E8D907225AE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8E0EB1BD-6AFC-48F0-8125-108DA619E0C9} = {7BBAD23D-CA59-4615-87B4-1568AE742209}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDBB87D4-5B30-4DA2-87C0-FD482E83990F}
+	EndGlobalSection
+EndGlobal
