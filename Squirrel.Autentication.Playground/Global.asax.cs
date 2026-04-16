@@ -37,10 +37,10 @@ namespace Squirrel.Autentication.Playground
         application.Context.User = new SquirrelPrincipal(userName);
       }
     }
-
+    
     protected void Application_Error(object sender, EventArgs e)
     {
-
+      
     }
 
     protected void Session_End(object sender, EventArgs e)

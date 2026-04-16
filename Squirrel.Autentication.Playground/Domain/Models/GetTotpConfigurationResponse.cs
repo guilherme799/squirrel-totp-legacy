@@ -7,13 +7,13 @@ namespace Squirrel.Autentication.Playground.Domain.Models
   {
     public Uri TotpUri { get; }
     public string SecretKey { get; }
-    public string QrCorde { get; }
+    public string QrCode { get; }
 
     public GetTotpConfigurationResponse(string totpUri, string secretKey)
     {
       TotpUri = new Uri(totpUri);
       SecretKey = secretKey;
-      QrCorde = BuildQrCode(totpUri);
+      QrCode = BuildQrCode(totpUri);
     }
 
     private string BuildQrCode(string totpUri)
@@ -21,7 +21,7 @@ namespace Squirrel.Autentication.Playground.Domain.Models
       using(var qrCodeGenerator = new QRCodeGenerator())
         using(var qrCodeData = qrCodeGenerator.CreateQrCode(totpUri, QRCodeGenerator.ECCLevel.Q))
         return new Base64QRCode(qrCodeData)
-          .GetGraphic(20);
+          .GetGraphic(5);
     }
   }
 }
